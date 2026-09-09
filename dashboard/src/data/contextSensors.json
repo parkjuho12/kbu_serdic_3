@@ -1,0 +1,138 @@
+[
+  {
+    "device_id": "IRC-KBU-01",
+    "sensor_type": "IRC",
+    "floor": 3,
+    "number": 1,
+    "x": 38.459128453432065,
+    "y": 62.0182555780933
+  },
+  {
+    "device_id": "IRC-KBU-02",
+    "sensor_type": "IRC",
+    "floor": 3,
+    "number": 2,
+    "x": 21.56935346055255,
+    "y": 62.0182555780933
+  },
+  {
+    "device_id": "IRC-KBU-03",
+    "sensor_type": "IRC",
+    "floor": 3,
+    "number": 3,
+    "x": 61.14782113358018,
+    "y": 51.86612576064908
+  },
+  {
+    "device_id": "IRC-KBU-04",
+    "sensor_type": "IRC",
+    "floor": 2,
+    "number": 4,
+    "x": 33.004841925377384,
+    "y": 60.6186612576065
+  },
+  {
+    "device_id": "IRC-KBU-05",
+    "sensor_type": "IRC",
+    "floor": 2,
+    "number": 5,
+    "x": 21.41270293363714,
+    "y": 60.6186612576065
+  },
+  {
+    "device_id": "IRC-KBU-06",
+    "sensor_type": "IRC",
+    "floor": 2,
+    "number": 6,
+    "x": 60.91996582170323,
+    "y": 52.83975659229208
+  },
+  {
+    "device_id": "RDC-KBU-01",
+    "sensor_type": "RDC",
+    "floor": 3,
+    "number": 1,
+    "x": 21.56650526915409,
+    "y": 67.30223123732252
+  },
+  {
+    "device_id": "RDC-KBU-06",
+    "sensor_type": "RDC",
+    "floor": 3,
+    "number": 6,
+    "x": 18.311022500712046,
+    "y": 67.28194726166329
+  },
+  {
+    "device_id": "RDC-KBU-07",
+    "sensor_type": "RDC",
+    "floor": 3,
+    "number": 7,
+    "x": 61.14497294218172,
+    "y": 57.16024340770791
+  },
+  {
+    "device_id": "RDC-KBU-18",
+    "sensor_type": "RDC",
+    "floor": 3,
+    "number": 18,
+    "x": 18.302477926516662,
+    "y": 71.83569979716023
+  },
+  {
+    "device_id": "RDC-KBU-19",
+    "sensor_type": "RDC",
+    "floor": 3,
+    "number": 19,
+    "x": 21.560808886357165,
+    "y": 71.85598377281947
+  },
+  {
+    "device_id": "RDC-KBU-20",
+    "sensor_type": "RDC",
+    "floor": 3,
+    "number": 20,
+    "x": 38.453432070635145,
+    "y": 67.25152129817444
+  },
+  {
+    "device_id": "RDC-KBU-02",
+    "sensor_type": "RDC",
+    "floor": 2,
+    "number": 2,
+    "x": 21.40985474223868,
+    "y": 65.88235294117646
+  },
+  {
+    "device_id": "RDC-KBU-03",
+    "sensor_type": "RDC",
+    "floor": 2,
+    "number": 3,
+    "x": 31.64625462831102,
+    "y": 65.88235294117646
+  },
+  {
+    "device_id": "RDC-KBU-08",
+    "sensor_type": "RDC",
+    "floor": 2,
+    "number": 8,
+    "x": 31.64625462831102,
+    "y": 70.4259634888438
+  },
+  {
+    "device_id": "RDC-KBU-09",
+    "sensor_type": "RDC",
+    "floor": 2,
+    "number": 9,
+    "x": 21.40985474223868,
+    "y": 70.43610547667343
+  },
+  {
+    "device_id": "RDC-KBU-10",
+    "sensor_type": "RDC",
+    "floor": 2,
+    "number": 10,
+    "x": 60.905724864710905,
+    "y": 58.45841784989858
+  }
+]
