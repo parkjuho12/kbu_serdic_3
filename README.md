@@ -39,29 +39,6 @@ cd dashboard
 npm run build
 ```
 
-빌드 결과는 dashboard/dist에 생성되며 /kbu/ 경로용입니다.
-
-## Ubuntu 배포
-
-예정 주소: https://cc.pjhpjh.kr/kbu/ (저장소 업로드만으로 웹 배포가 완료되지는 않습니다.)
-
-구조: Nginx HTTPS → /kbu/ → Apache 127.0.0.1:8088. Apache의 /api/demo-ai/는 Python 서비스 127.0.0.1:8089로 전달됩니다.
-
-서버의 /etc/kbu-demo-ai.env에 OPENAI_API_KEY와 OPENAI_MODEL을 설정하고 파일 권한을 root 전용 600으로 지정합니다. 실제 키는 코드나 프런트엔드에 넣지 않습니다.
-
-```sh
-tar -czf /tmp/kbu-demo.tar.gz -C dashboard/dist .
-tar -czf /tmp/kbu-ai.tar.gz -C demo-server server.py -C ../dashboard/src/data edcDemo.json
-```
-
-두 압축파일과 deploy/install-ai.sh, deploy/install-demo.sh를 대상 서버 /tmp에 복사합니다. 환경변수 파일을 준비한 후 대상 서버에서 실행합니다.
-
-```sh
-bash /tmp/install-ai.sh
-bash /tmp/install-demo.sh
-```
-
-install-demo.sh는 현재 cc.pjhpjh.kr의 /etc/nginx/sites-available/n8n 구성에 맞춘 스크립트입니다. 다른 서버에서는 도메인 및 설정 경로를 수정해야 합니다. 기존 설정은 /var/backups/kbu-demo에 백업하고 정적 파일은 /var/www/kbu-demo/releases에 보관합니다.
 
 ## 동작 범위
 
